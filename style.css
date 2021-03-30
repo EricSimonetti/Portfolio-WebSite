@@ -1,0 +1,74 @@
+body{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+/* sans-serif */
+/* Georgia, Times, 'Times New Roman', serif */
+
+h4{
+    font-weight: bold;
+}
+
+h5{
+    font-size: 12px;
+}
+
+.skill-heading{
+    size:24px;
+    text-align: center;
+}
+
+.portfolio-caption {
+    text-align: center;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+#skills, #about-me, #portfolio, #contact{
+  background-color: 	#F5F5F5;
+}
+
+#my-image{
+    height: 385px;
+    width: 300px;
+    border-radius: 50%;
+    border: 4px solid #cccccc;
+}
+
+.code-btn{
+  padding: 8px;
+  color: black;
+  background-color: #cccccc;
+  border: solid 2px lightslategray;
+  transition: all 0.3s ease 0s;
+}
+
+.code-btn:hover{
+  border-radius: 20px;
+  box-shadow: 0 0 25px blue;
+  transition: all 0.3s ease 0s;
+}
+
+#top-content{
+    background-image: url(images/bet.png);
+}
+
+#skills, #about-me{
+  background-color: 	#F5F5F5;
+}
+
+#portfolio{
+    background-image: url(images/portfolio_background.jpg);
+}
+
+.card-img-top:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width: 500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
